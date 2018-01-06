@@ -1,0 +1,5 @@
+Para executar o programa deve-se executar os seguinte passos:
+
+1 - ./table-server (n_lists) (porto do secundário) -> este é o servidor secundário
+2 - ./table-server (n_lists) (porto do primário) (porto do secundário) -> este é o primário
+3 - ./table-client (ip:porto_primario) (ip:porto_secundario) -> este é o cliente
